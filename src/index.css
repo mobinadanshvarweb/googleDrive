@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@theme {
+  --color-background: #1b1b1b;
+  --color-backoutlet: #131314;
+  --color-text: #c4c7c5;
+  --color-inner: #494d53;
+  --font-drive: "drive", sans-serif;
+  --shadow-custom: 3px 3px 3px 3px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+@font-face {
+  font-family: drive;
+  font-style: normal;
+  font-display: swap;
+  src: url("/font/drive.ttf");
+}
